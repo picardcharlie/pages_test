@@ -1,4 +1,4 @@
-writeRandomQuote = function () {
+function writeRandomQuote() {
 	let quotes = [
 		"What did you say? Breeding lamp?",
 		"It's ok, we're cousins.",
