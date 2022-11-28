@@ -5,7 +5,6 @@ writeRandomQuote = function () {
 		"You ever notice that girls are cute?",
 		"And when I'm done and dead, you better empty the grease trap!"
 	]
-
 	let rand = Math.floor(Math.random()*quotes.lenth);
 	document.getElementById("quote").innerText = quotes[rand];
 }
