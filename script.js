@@ -7,12 +7,12 @@ writeRandomQuote = function () {
 	]
 
 	let rand = Math.floor(Math.random()*quotes.lenth);
-	document.getElementById("quotes").innerText = quotes[rand];
+	document.getElementById("quote").innerText = quotes[rand];
 }
 
 function copyDate() {
 	let footer = document.getElementById("copyright")
-	let copyrightText = "copyright [YOUR_NAME] " + new Date().getFullYear()
+	let copyrightText = "copyright chaz micheals " + new Date().getFullYear()
 	footer.innerText = copyrightText
 }
 
